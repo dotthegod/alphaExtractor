@@ -24,7 +24,7 @@ def extract_alpha_channel(image_path):
         
         # Create the path for the new alpha channel image
         base_name, ext = os.path.splitext(image_path)
-        alpha_image_path = f"{base_name}_alpha.png"
+        alpha_image_path = f"{base_name}_trans.png"
         
         # Save the alpha channel image
         alpha_img.save(alpha_image_path)

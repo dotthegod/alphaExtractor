@@ -1,8 +1,7 @@
 # alphaExtractor
-it extracts the alpha channel from .png's
+This tool extracts the alpha channel from .png's into a separate mask.
 
-!!You need to download few libraries to get it work!!
+## Dependencies
+- pip install tkinterdnd2
+- pip install pillow
 
--pip install tkinterdnd2
--pip install pillow
--🛌👍
